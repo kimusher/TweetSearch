@@ -1,0 +1,169 @@
+
+
+body {
+  background:#f3f3f3;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+a {
+  color: #e74c3c !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #2c3e50;
+  height: 90px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+
+.recipe__buttons {
+  border: solid 2px #fb701d;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+
+.tweet_box {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+  text-align: left;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.tweet_box__text {
+  margin-left: 15px;
+}
+
+.tweet_box__title_box {
+
+  top: 10%;
+  position: absolute;
+    width: 100%;
+}
+
+.tweet_box__title {
+  color: #fb701d;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+
+  display: inline;
+}
+
+.tweet_box__title_name {
+    width: 50%;
+      color: #fb701d;
+    margin-right: 1.5rem;
+}
+.tweet_box__screen_name {
+  color:#8c8c8c;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1.8rem 0 0.2rem 0;
+}
+.tweet_box__date {
+    position: absolute;
+    left: 100%;
+      color: #000000;
+          width: 100%;
+            font-size: 1rem;
+}
+
+.tweet_box__tweet_text {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  top: 30%;
+  position: absolute;
+}
+
+.tweet_box__subtitle span {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.form__input {
+  background: transparent;
+  border: 0;
+  border-bottom: solid 2px #2c3e50;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  width: 10%;
+  padding: 0.4rem;
+}
+
+.form__button {
+  border: solid 2px  #fb701d;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+
+/******** Tweets.js ********/
+
+
+.form__button__button {
+  border: solid 2px #e74c3c;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tweet_box-img{
+    width: 160px;
+}
+.tweet_box-span-img{
+        display: contents;
+}
+.likes_number {
+    display: inline;
+    margin-left: 1rem;
+}
+.likes {
+       top: 70%;
+    position: absolute;
+}
