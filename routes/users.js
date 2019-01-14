@@ -5,11 +5,17 @@ const Twit = require("twit");
 let tweetsText = [];
 let name;
 
+// Twitter API Keys (if needed - ask for them from me) 
+const CONSUMER_KEY = "enter your key";
+const CONSUMER_SECRET = "enter your key";
+const ACCESS_TOKEN = "enter your key";
+const ACCESS_TOKEN_SECRET = "enter your key";
+
 const T = new Twit({
-  consumer_key: 'p2wwGo0REbiQUfTeHC4QaW6ne',
-  consumer_secret: '1ncYPAAu3r8xFu0jBH84zE7hM3ayFuR2YqDuczYAjoQDf62hAd',
-  access_token: '1075820991429914624-EPMfWYm2eYTxyBLX3qk0jpWWlS9SgH',
-  access_token_secret: 'DDl4bKS5LvB2tkoSgIqW2glfUCOssA0YbUnSUV8lRy1dy'
+  consumer_key: CONSUMER_KEY,
+  consumer_secret: CONSUMER_SECRET,
+  access_token: ACCESS_TOKEN,
+  access_token_secret: ACCESS_TOKEN_SECRET
 });
 
 // processData : receive the data from the twitter api and convert it 
